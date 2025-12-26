@@ -1,0 +1,23 @@
+numero=int(input('digite um numero para sua tabuada: '))
+multiplicacao_1=numero*1
+multiplicacao_2=numero*2
+multiplicacao_3=numero*3
+multiplicacao_4=numero*4
+multiplicacao_5=numero*5
+multiplicacao_6=numero*6
+multiplicacao_7=numero*7
+multiplicacao_8=numero*8
+multiplicacao_9=numero*9
+multiplicacao_10=numero*10
+print('---------')
+print(f'1x{numero}={multiplicacao_1}')
+print(f'2x{numero}={multiplicacao_2}')
+print(f'3x{numero}={multiplicacao_3}')
+print(f'4x{numero}={multiplicacao_4}')
+print(f'5x{numero}={multiplicacao_5}')
+print(f'6x{numero}={multiplicacao_6}')
+print(f'7x{numero}={multiplicacao_7}')
+print(f'8x{numero}={multiplicacao_8}')
+print(f'9x{numero}={multiplicacao_9}')
+print(f'10x{numero}={multiplicacao_10}')
+print('---------')
