@@ -1,0 +1,5 @@
+nome=str(input('qual seu nome completo? ')).strip().title()
+divisão=nome.split()
+print(f'praze `muito prazer te conhecer {nome}')
+print(f'seu primeiro nome é {divisão[0]}')
+print(f'se ultimo nome é {divisão[len(divisão)-1]}')
