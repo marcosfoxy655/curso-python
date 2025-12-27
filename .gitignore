@@ -1,1 +1,28 @@
-.venv
+# Ambientes locais
+.venv/
+venv/
+
+# Áudio (pesados)
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Vídeo (pesados)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wmv
+*.mpeg
+*.webm
+
+# Imagens (binárias)
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
