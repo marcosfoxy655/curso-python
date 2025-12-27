@@ -1,5 +1,11 @@
 import pygame
-pygame.init(0, 0)
-pygame.mixer.music.load('exe020msc.mp3')
+import time
+
+pygame.init()
+pygame.mixer.init()
+
+pygame.mixer.music.load("exe021msc.mp3")
 pygame.mixer.music.play()
-pygame.event.wait()
+
+while pygame.mixer.music.get_busy():
+    time.sleep(0.1)
